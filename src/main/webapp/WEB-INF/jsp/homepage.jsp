@@ -6,6 +6,12 @@
 </head>
 <body>
 	<h1>Spring MVC</h1>
-	<p>Hello Spring MVC Controller WORLD</p>
+    <form action="redirectPage">
+        Name: <input name="name"/>
+        <br><br>
+        Age: <input name="age" type="number"/>
+        <br></br>
+        <input type="submit" value="Submit" />
+    </form>
 </body>
 </html>
